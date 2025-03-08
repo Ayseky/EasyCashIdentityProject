@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace EasyCashIdentityProject.DataAcessLayer.Concrete.Context
 {
-	public class EasyCashIdentityProjectDbContext : IdentityDbContext
+	public class EasyCashIdentityProjectDbContext : IdentityDbContext<AppUser,AppRole,int>
 	{
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
