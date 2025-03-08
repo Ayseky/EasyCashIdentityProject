@@ -1,3 +1,4 @@
 Identity paketleri kuruldu.
 Microsoft.AspNetCore.Identity
-icrosoft.AspNetCore.Identity.EntityFrameworkCore
+Microsoft.AspNetCore.Identity.EntityFrameworkCore
+Context nesnesi artık Dbcontezt sınıfını değil IdentityDbContext sınıfını referans alacak.
