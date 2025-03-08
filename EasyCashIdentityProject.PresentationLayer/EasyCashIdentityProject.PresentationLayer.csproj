@@ -17,4 +17,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EasyCashIdentityProject.BusinessLayer\EasyCashIdentityProject.BusinessLayer.csproj" />
+  </ItemGroup>
+
 </Project>
