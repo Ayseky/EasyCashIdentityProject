@@ -11,7 +11,7 @@ namespace EasyCashIdentityProject.DataAcessLayer.Abstract
 		void Insert(T entity);
 		void Update(T entity);
 		void Delete(T entity);
-		void GetById (int id);
+		T GetById (int id);
 		List<T> GetAll();
 	}
 }
